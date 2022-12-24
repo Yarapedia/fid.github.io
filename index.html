@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portfolio - Tuan Hoang">
+    <meta name="description" content="Hi everyone, my name is Tuan. I'm Web Developer :))">
+    <meta property="og:image" content="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/82427975_601210070678494_8088882019326492672_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=x9-BLhJdBGEAX-Lnlu8&_nc_ht=scontent.fhan5-7.fna&oh=00_AT9rQuPv2onMUhpz1WIn_l3Gx99BHQtvyJ5yd5Jft17tDA&oe=625ED0E1">
+    <meta property="fb:admins" content="100023685202000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Rafid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+
+<style>
+     @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap");
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1.2rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    height: 10rem;
+    background-color: #ccc;
+    border: 3px solid white;
+    border-radius: 6px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    background-color: #f2f2fc;
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: #c12ed4;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    color: #302e4d;
+}
+
+p {
+    color: #504e70;
+}
+
+img {
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.title-intro {
+    display: inline-block;
+    font-size: 4rem;
+    font-family: "Rubik", sans-serif;
+    color: #302e4d;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.title-intro::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5px;
+    left: 0;
+    width: 50%;
+    height: 0.8rem;
+    transform: translate(50%, 50%);
+    background-color: rgb(141, 28, 206);
+}
+
+.home {
+    height: 70rem;
+    position: relative;
+}
+
+.home-social {
+    margin-top: 1.5rem;
+}
+
+.home-social-icon {
+    display: inline-block;
+    font-size: 1.6rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: white;
+    border-radius: 100%;
+    background-color: rgb(141, 28, 206);
+    position: relative;
+    transition: all 0.25s linear;
+}
+
+.home-social-icon:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.home-social-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-social-icon:hover {
+    transform: scale(1.2);
+}
+
+.home-avatar {
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    border: 1rem solid #ffff;
+    transition: 0.5s;
+}
+
+.home-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.home-content {
+    padding: 30px 100px 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0 0.3px 1px 0.3px rgb(0 0 0 / 0.2%), 0 3px 6px 3px rgb(0 0 0 / 1%), 0 5px 50px 5px rgb(0 0 0 / 3%);
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-title {
+    margin-top: 1.5rem;
+}
+
+.home-title h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.home-title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .home-title h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+.edu {
+    margin-bottom: 5rem;
+}
+
+.edu-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.edu-name {
+    font-size: 2.4rem;
+    transition: 0.5s;
+}
+
+.edu-person-infor {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.edu-skill {
+    width: calc(50% - 1rem);
+}
+
+.edu-infor {
+    width: calc(50% - 1rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.edu-infor-item {
+    display: inline-block;
+    width: calc(50% - 1.5rem);
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.edu-infor-item span {
+    color: #302e4d;
+    font-weight: 700;
+}
+
+.edu-education {
+    margin-top: 5rem;
+}
+
+.edu-education-content {
+    margin-top: 2rem;
+}
+
+.edu-education-title {
+    font-size: 2.4rem;
+}
+
+.edu-education-item {
+    box-shadow: 0 1px 2px 1px rgb(0 0 0 / 0.3%), 0 3px 6px 3px rgb(0 0 0 / 1%), 0 5px 50px 5px rgb(0 0 0 / 3%);
+    overflow: hidden;
+    position: relative;
+    background-color: #ffff;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .home-content {
+
+        padding: 30px 70px 50px 70px;
+    }
+
+    .edu-name {
+        font-size: 1.6rem;
+    }
+
+    .edu-skill {
+        width: 100%;
+    }
+
+    .edu-infor {
+        width: 100%;
+    }
+
+    .edu-infor-item {
+        width: 100%;
+    }
+
+    .edu-education-item {
+        width: 100%;
+    }
+}
+
+.skill-item {
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.skill-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-item-name {
+    font-weight: 700;
+    color: #302e4d;
+}
+
+.skill-item-progress {
+    width: 100%;
+    height: 0.8rem;
+    background-color: #e3e3e3;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.skill-item-bars {
+    width: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgb(141, 28, 206);
+    border-radius: 1rem;
+    animation: skill ease 2s;
+}
+
+@keyframes skill {
+    0% {
+        transform: translateX(-200px);
+        -webkit-transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+}
+
+.education-item-time i {
+    font-size: 1.8rem;
+    color: #504e70;
+    margin-right: 2rem;
+}
+
+.education-item-time span {
+    color: #504e70;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.education-item-title {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.time-line {
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: rgb(141, 28, 206);
+    top: 4rem;
+    left: 2.5rem;
+}
+
+.time-line::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: rgb(141, 28, 206);
+    top: 0;
+    left: 1px;
+    transform: translateX(-50%);
+}
+
+.project {
+    margin-bottom: 5rem;
+}
+
+.project a {
+    display: inline-block;
+}
+
+.project-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.project-list {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 60%;
+    box-shadow: 0 1px 2px 1px rgb(0 0 0 / 0.3%), 0 3px 6px 3px rgb(0 0 0 / 1%), 0 5px 50px 5px rgb(0 0 0 / 3%);
+    border: 1rem solid #ffff;
+    border-radius: 10px;
+    height: 35rem;
+    margin-bottom: 2rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.project-item:hover .project-item-infor {
+    opacity: 1;
+}
+
+.project-item #project-light {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    animation: scroll-img 5s ease infinite 1s;
+}
+.project-item #project-dark{
+    display: none;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    animation: scroll-img 5s ease infinite 1s;
+}
+@keyframes scroll-img {
+    0%{
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-40%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.project-item-infor {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.project-item-infor h3 {
+    background-color: rgb(141, 28, 206);
+    font-size: 2.5rem;
+}
+
+.project-item-infor span {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .project-item {
+        width: 100%;
+    }
+}
+
+.contact-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-infor {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-infor-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-infor-item i {
+    font-size: 4rem;
+    color: rgb(141, 28, 206);
+}
+
+.contact-infor-item h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.contact-infor-item p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.contact-form input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 3rem;
+    outline: none;
+    border: 1px solid #ccc;
+    transition: all 0.2s linear;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=submit] {
+    background-color: rgb(141, 28, 206);   
+}
+
+.contact-form input[type=submit] {
+    border: 0;
+}
+
+.contact-form input:hover {
+    box-shadow: 0 1px 2px 1px rgb(86 141 229 / 0.3%), 0 3px 6px 3px rgb(86 141 229 / 1%), 0 5px 50px 5px rgb(86 141 229 / 3%);
+}
+
+.contact-form-subject {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.contact-form-message {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.contact-form-submit {
+    background-color: rgba(86, 141, 229, 1);
+    padding: 1.5rem;
+    color: #ffff;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-infor {
+        flex-direction: column;
+    }
+
+    .contact-infor-item {
+        margin-bottom: 3rem;
+    }
+
+    .contact-infor-item h3 {
+        margin-top: 1rem;
+    }
+
+    .contact-form-name {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .contact-form-email {
+        width: 100%;
+    }
+}
+
+*::-webkit-input-placeholder {
+    color: #504e70;
+    font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #568DE5;
+        transition: .2s;
+    }
+    a:hover{
+        opacity: 0.9;
+    }
+    body, .skill-item-progress {
+        background-color: #212121;
+    }
+
+    .edu-education-item:hover {
+        transition: ease-in-out 0.2s;
+        background-color: #2B2B2B;
+    }
+
+    h1, h2, h3, p, .title-intro, span, .skill-item-name, .education-item-time i, .education-item-time span, #transaction-count, .fa-bars:before, .fa-times-circle, .navbar-list span {
+        color: #EEEEEE;
+    }
+
+    .edu-education-item, .home-content, .home-avatar, .navbar-item i {
+        background-color: #2B2B2B;
+        border: #423F3E;
+        color: #bbb;
+    }
+
+    @media screen and (max-width: 767px) {
+        .navbar-list {
+            background-color: #423F3E;
+        }
+    }
+
+    @media screen and (max-width: 1230px) {
+        .navbar-list {
+            background-color: #423F3E;
+        }
+    }
+
+    .contact-form input {
+        background-color: #423F3E;
+        border: none;
+        color: #EEEEEE;
+    }
+
+    .project-item {
+        border: 1rem solid #423F3E;
+    }
+    .project-item #project-dark {
+        display: block;
+    }
+    .project-item #project-light {
+        display: none;
+    }
+
+    ::placeholder {
+        color: #EEEEEE;
+    }
+
+    input[type=submit] {
+        background-color: rgba(86, 141, 229, 1);
+    }
+
+    html::-webkit-scrollbar-track {
+        background-color: #423F3E;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        height: 10rem;
+        background-color: #ccc;
+        border: 3px solid #423F3E;
+        border-radius: 6px;
+    }
+
+    .abs,
+h2:after,
+.cards .card figcaption,
+.cards .card:after,
+.news .card figcaption,
+.news .card:after,
+.news .article figcaption {
+  position: absolute;
+}
+.rel,
+h2,
+h2 strong,
+.cards .card,
+.news .card,
+.news .article {
+  position: relative;
+}
+.fix {
+  position: fixed;
+}
+.dfix {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+.df,
+.cards,
+.news {
+  display: flex;
+}
+.dif {
+  display: inline-flex;
+}
+.dg {
+  display: grid;
+}
+.dig {
+  display: inline-grid;
+}
+.vm,
+h2,
+h2 strong,
+h2 span {
+  vertical-align: middle;
+}
+body {
+  font-family: 'Alegreya Sans';
+}
+.wrapper {
+  padding: 15px;
+}
+h2 {
+  padding: 10px;
+  padding-left: 25px;
+  color: #ccc;
+  margin: 0;
+}
+h2 strong {
+  z-index: 2;
+  padding: 4px 8px;
+}
+h2 span {
+  font-size: 0.7em;
+  color: #aaa;
+  margin-left: 10px;
+}
+h2:after {
+  content: '';
+  z-index: 1;
+  bottom: 50%;
+  margin-bottom: -2px;
+  height: 2px;
+  left: 0;
+  right: 0;
+}
+.cards,
+.news {
+  flex-flow: row wrap;
+}
+.cards .card,
+.news .card {
+  margin: 20px;
+  width: 180px;
+  height: 270px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
+}
+.cards .card img,
+.news .card img {
+  width: 100%;
+  min-height: 100%;
+}
+.cards .card figcaption,
+.news .card figcaption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background: none;
+  color: #fff;
+  transform: translateY(100%);
+  transition: 0.3s;
+}
+.cards .card:after,
+.news .card:after {
+  content: '';
+  z-index: 10;
+  width: 200%;
+  height: 100%;
+  top: -90%;
+  left: -20px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  background: linear-gradient(to top, transparent, #fff 15%, rgba(255,255,255,0.5));
+  transition: 0.3s;
+}
+.cards .card:hover,
+.news .card:hover,
+.cards .card:focus,
+.news .card:focus,
+.cards .card:active,
+.news .card:active {
+  box-shadow: 0 8px 16px 3px rgba(0,0,0,0.6);
+  transform: translateY(-3px) scale(1.05) rotateX(15deg);
+}
+.cards .card:hover figcaption,
+.news .card:hover figcaption,
+.cards .card:focus figcaption,
+.news .card:focus figcaption,
+.cards .card:active figcaption,
+.news .card:active figcaption {
+  transform: none;
+}
+.cards .card:hover:after,
+.news .card:hover:after,
+.cards .card:focus:after,
+.news .card:focus:after,
+.cards .card:active:after,
+.news .card:active:after {
+  transform: rotate(25deg);
+  top: -40%;
+  opacity: 0.15;
+}
+.news .article {
+  overflow: hidden;
+  width: 350px;
+  height: 235px;
+  margin: 20px;
+}
+.news .article img {
+  width: 100%;
+  min-height: 100%;
+  transition: 0.2s;
+}
+.news .article figcaption {
+  font-size: 14px;
+  text-shadow: 0 1px 0 rgba(51,51,51,0.3);
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 40px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  background: rgba(6,18,53,0.6);
+  opacity: 0;
+  transform: scale(1.15);
+  transition: 0.2s;
+}
+.news .article figcaption h3 {
+  color: #3792e3;
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.news .article:hover img,
+.news .article:focus img,
+.news .article:active img {
+  filter: blur(3px);
+  transform: scale(0.97);
+}
+.news .article:hover figcaption,
+.news .article:focus figcaption,
+.news .article:active figcaption {
+  opacity: 1;
+  transform: none;
+}
+
+button {
+  font-size: 18px;
+  color: #000000;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button:focus,
+button:hover {
+  color: rgb(0, 0, 0);
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+}
+</style>
+
+    <body>
+    <main>
+    <section class="home animate__animated animate__fadeInUp" id="home">
+    <div class="home-box container">
+    <div class="home-content">
+    <div class="home-avatar"><img src="fid.jpg" id="img-avt"></div>
+    <div class="home-title">
+    <h1 id="name-api">Rafid Shobri Ardiyanto</h1>
+    <h3><p style="font-weight: bold;">Junior Web Developer</p></h3>
+    </div>
+    <div class="home-social"><a rel="dofollow" target="_blank" href="https://www.instagram.com/zyvarra._/" class="home-social-icon"><i class="fab fa-instagram"></i></a><a rel="dofollow" target="_blank" href="https://www.tiktok.com/@zykovaaaaaa" class="home-social-icon"><i class="fab fa-tiktok"></i></a>
+    <div class="skill-item">
+    <div class="skill-item-top"><span class="skill-item-name">HTML</span><span class="skill-item-percent">85%</span></div>
+    <div class="skill-item-progress">
+    <div class="skill-item-bars" style="width: 85%"></div>
+    </div>
+    <div class="skill-item">
+    <div class="skill-item-top"><span class="skill-item-name">CSS</span><span class="skill-item-percent">55%</span></div>
+    <div class="skill-item-progress">
+    <div class="skill-item-bars" style="width: 55%"></div>
+    </div>
+    <div class="skill-item">
+    <div class="skill-item-top"><span class="skill-item-name">Javascript</span><span class="skill-item-percent">30%</span></div>
+    <div class="skill-item-progress">
+    <div class="skill-item-bars" style="width: 30%"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section class="home animate__animated animate__fadeInUp" id="about">
+        <div class="home-box container">
+            <div class="edu-title title-intro">About me</div>
+        <div class="home-content">
+        <div class="about-title">
+        <p> Hai perkenalkan nama saya <strong>Rafid</strong> sekarang saya berumur 15 tahun
+        dan saya masih bersekolah kelas 10 , saya mempelajari coding sejak saya berumur 13 tahun
+    atau saat kelas 2 SMP , hobi saya Coding dan basketball</p>
+        </div>
+    </section>
+    <section class="edu" id="edu">
+    <div class="edu-box container">
+    <div class="edu-title title-intro">Education</div>
+    <div class="edu-education">
+    <div class="edu-education-content">
+    <div class="edu-education-item">
+     <div class="time-line"></div>
+    <div class="education-item-time"><i class="far fa-calendar-alt"></i><span>2019 - 2022</span></div>
+    <h3 class="education-item-title">Sekolah Menengah Pertama negeri 5 Depok</h3>
+    <p class="education-item-desc">Jl. Mandar No.30, Beji Tim., Kecamatan Beji, Kota Depok, Jawa Barat</p>
+    </div>
+    </div>
+    <div class="edu-education-content">
+    <div class="edu-education-item">
+    <div class="time-line"></div>
+    <div class="education-item-time"><i class="far fa-calendar-alt"></i><span>2022</span></div>
+    <h3 class="education-item-title">Sekolah Menengah Kejuruan AL-Muhajirin</h3>
+    <p class="education-item-desc">Jl. Nusantara Raya No.313, Depok Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat</p>
+    </div>
+    </div>
+    </div>
+    </div></section>
+    <section class="edu" id="edu">
+        <div class="edu-box container">
+        <div class="edu-title title-intro">Game</div>
+       
+    </section>
+    
+    <div class="wrapper">
+
+        <h2><strong>All Games<span>( 3 )</span></strong></h2>
+    
+        <div class="cards">
+    
+            <figure class="card">
+    
+                <img src="rabbit.jpg" />
+    
+                <figcaption><a href="games/rabbit/index.html"><button> PLay Now</button></a></figcaption>
+    
+            </figure>
+    
+            <figure class="card">
+    
+                <img src="snake.jpg" />
+    
+                <figcaption><a href="games/snake/index.html"><button> PLay Now</button></a></figcaption>
+    
+            </figure>
+    
+            <figure class="card">
+    
+                <img src="menja.jpg" />
+    
+                <figcaption><a href="games/menja/index.html"><button> PLay Now</button></a></figcaption>
+    
+            </figure>
+    
+    
+        </div>
+    
+        
+    
+    </div>
+
+    </body></html>
+<!-- partial -->
+  
+</body>
+</html>
